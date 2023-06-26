@@ -1,0 +1,291 @@
+
+***Next hops priority 1 (explicit paths)***
+
+***Next hops priority 2 (sr paths)***
+
+Destination N5
+sequence of middlepoints: N0 -> N3 -> N5
+
+Destination N9
+sequence of middlepoints: N0 -> N7 -> N4 -> N9
+
+Destination N11
+sequence of middlepoints: N0 -> N1 -> N11
+
+Destination N13
+sequence of middlepoints: N0 -> N13
+
+Destination N0
+sequence of middlepoints: N5 -> N3 -> N0
+
+Destination N9
+sequence of middlepoints: N5 -> N6 -> N9
+
+Destination N11
+sequence of middlepoints: N5 -> N12 -> N11
+
+Destination N13
+sequence of middlepoints: N5 -> N13
+
+Destination N0
+sequence of middlepoints: N9 -> N1 -> N0
+
+Destination N5
+sequence of middlepoints: N9 -> N5
+
+Destination N11
+sequence of middlepoints: N9 -> N8 -> N11
+
+Destination N13
+sequence of middlepoints: N9 -> N8 -> N11 -> N13
+
+Destination N0
+sequence of middlepoints: N11 -> N0
+
+Destination N5
+sequence of middlepoints: N11 -> N5
+
+Destination N9
+sequence of middlepoints: N11 -> N12 -> N9
+
+Destination N13
+sequence of middlepoints: N11 -> N13
+
+Destination N0
+sequence of middlepoints: N13 -> N0
+
+Destination N5
+sequence of middlepoints: N13 -> N10 -> N0 -> N5
+
+Destination N9
+sequence of middlepoints: N13 -> N0 -> N9
+
+Destination N11
+sequence of middlepoints: N13 -> N11
+
+***Next hops priority 3 (ecmp paths)***
+
+Destination N0
+node: N0, next hops: []
+node: N1, next hops: [N0]
+node: N2, next hops: [N0]
+node: N3, next hops: [N0]
+node: N4, next hops: [N3]
+node: N5, next hops: [N2]
+node: N6, next hops: [N4, N7]
+node: N7, next hops: [N1]
+node: N8, next hops: [N3]
+node: N9, next hops: [N8]
+node: N10, next hops: [N7]
+node: N11, next hops: [N8]
+node: N12, next hops: [N5]
+node: N13, next hops: [N5]
+
+Destination N1
+node: N0, next hops: [N1]
+node: N1, next hops: []
+node: N2, next hops: [N1]
+node: N3, next hops: [N0]
+node: N4, next hops: [N3, N5, N6]
+node: N5, next hops: [N2]
+node: N6, next hops: [N7]
+node: N7, next hops: [N1]
+node: N8, next hops: [N3]
+node: N9, next hops: [N10]
+node: N10, next hops: [N7]
+node: N11, next hops: [N10]
+node: N12, next hops: [N5]
+node: N13, next hops: [N5, N10]
+
+Destination N2
+node: N0, next hops: [N2]
+node: N1, next hops: [N2]
+node: N2, next hops: []
+node: N3, next hops: [N0]
+node: N4, next hops: [N5]
+node: N5, next hops: [N2]
+node: N6, next hops: [N4, N7]
+node: N7, next hops: [N1]
+node: N8, next hops: [N3]
+node: N9, next hops: [N12]
+node: N10, next hops: [N13, N7]
+node: N11, next hops: [N12]
+node: N12, next hops: [N5]
+node: N13, next hops: [N5]
+
+Destination N3
+node: N0, next hops: [N3]
+node: N1, next hops: [N0]
+node: N2, next hops: [N0]
+node: N3, next hops: []
+node: N4, next hops: [N3]
+node: N5, next hops: [N4]
+node: N6, next hops: [N4]
+node: N7, next hops: [N1, N6]
+node: N8, next hops: [N3]
+node: N9, next hops: [N8]
+node: N10, next hops: [N9, N11]
+node: N11, next hops: [N8]
+node: N12, next hops: [N5, N9, N11]
+node: N13, next hops: [N5]
+
+Destination N4
+node: N0, next hops: [N3]
+node: N1, next hops: [N0, N2, N7]
+node: N2, next hops: [N5]
+node: N3, next hops: [N4]
+node: N4, next hops: []
+node: N5, next hops: [N4]
+node: N6, next hops: [N4]
+node: N7, next hops: [N6]
+node: N8, next hops: [N3]
+node: N9, next hops: [N8, N12]
+node: N10, next hops: [N13, N7]
+node: N11, next hops: [N8, N12]
+node: N12, next hops: [N5]
+node: N13, next hops: [N5]
+
+Destination N5
+node: N0, next hops: [N2]
+node: N1, next hops: [N2]
+node: N2, next hops: [N5]
+node: N3, next hops: [N4]
+node: N4, next hops: [N5]
+node: N5, next hops: []
+node: N6, next hops: [N4]
+node: N7, next hops: [N1, N6, N10]
+node: N8, next hops: [N3, N9, N11]
+node: N9, next hops: [N12]
+node: N10, next hops: [N13]
+node: N11, next hops: [N12]
+node: N12, next hops: [N5]
+node: N13, next hops: [N5]
+
+Destination N6
+node: N0, next hops: [N1, N3]
+node: N1, next hops: [N7]
+node: N2, next hops: [N1, N5]
+node: N3, next hops: [N4]
+node: N4, next hops: [N6]
+node: N5, next hops: [N4]
+node: N6, next hops: []
+node: N7, next hops: [N6]
+node: N8, next hops: [N3]
+node: N9, next hops: [N10]
+node: N10, next hops: [N7]
+node: N11, next hops: [N10]
+node: N12, next hops: [N5]
+node: N13, next hops: [N5, N10]
+
+Destination N7
+node: N0, next hops: [N1]
+node: N1, next hops: [N7]
+node: N2, next hops: [N1]
+node: N3, next hops: [N0, N4]
+node: N4, next hops: [N6]
+node: N5, next hops: [N13, N2, N4]
+node: N6, next hops: [N7]
+node: N7, next hops: []
+node: N8, next hops: [N9, N11]
+node: N9, next hops: [N10]
+node: N10, next hops: [N7]
+node: N11, next hops: [N10]
+node: N12, next hops: [N9, N11]
+node: N13, next hops: [N10]
+
+Destination N8
+node: N0, next hops: [N3]
+node: N1, next hops: [N0]
+node: N2, next hops: [N0]
+node: N3, next hops: [N8]
+node: N4, next hops: [N3]
+node: N5, next hops: [N4, N12]
+node: N6, next hops: [N4]
+node: N7, next hops: [N10]
+node: N8, next hops: []
+node: N9, next hops: [N8]
+node: N10, next hops: [N9, N11]
+node: N11, next hops: [N8]
+node: N12, next hops: [N9, N11]
+node: N13, next hops: [N10]
+
+Destination N9
+node: N0, next hops: [N3]
+node: N1, next hops: [N7]
+node: N2, next hops: [N5]
+node: N3, next hops: [N8]
+node: N4, next hops: [N3, N5]
+node: N5, next hops: [N12]
+node: N6, next hops: [N7]
+node: N7, next hops: [N10]
+node: N8, next hops: [N9]
+node: N9, next hops: []
+node: N10, next hops: [N9]
+node: N11, next hops: [N8, N10, N12]
+node: N12, next hops: [N9]
+node: N13, next hops: [N10]
+
+Destination N10
+node: N0, next hops: [N1]
+node: N1, next hops: [N7]
+node: N2, next hops: [N1, N5]
+node: N3, next hops: [N8]
+node: N4, next hops: [N5, N6]
+node: N5, next hops: [N13]
+node: N6, next hops: [N7]
+node: N7, next hops: [N10]
+node: N8, next hops: [N9, N11]
+node: N9, next hops: [N10]
+node: N10, next hops: []
+node: N11, next hops: [N10]
+node: N12, next hops: [N9, N11]
+node: N13, next hops: [N10]
+
+Destination N11
+node: N0, next hops: [N3]
+node: N1, next hops: [N7]
+node: N2, next hops: [N5]
+node: N3, next hops: [N8]
+node: N4, next hops: [N3, N5]
+node: N5, next hops: [N12]
+node: N6, next hops: [N7]
+node: N7, next hops: [N10]
+node: N8, next hops: [N11]
+node: N9, next hops: [N8, N10, N12]
+node: N10, next hops: [N11]
+node: N11, next hops: []
+node: N12, next hops: [N11]
+node: N13, next hops: [N10]
+
+Destination N12
+node: N0, next hops: [N2]
+node: N1, next hops: [N2]
+node: N2, next hops: [N5]
+node: N3, next hops: [N4, N8]
+node: N4, next hops: [N5]
+node: N5, next hops: [N12]
+node: N6, next hops: [N4]
+node: N7, next hops: [N10]
+node: N8, next hops: [N9, N11]
+node: N9, next hops: [N12]
+node: N10, next hops: [N9, N11]
+node: N11, next hops: [N12]
+node: N12, next hops: []
+node: N13, next hops: [N5]
+
+Destination N13
+node: N0, next hops: [N2]
+node: N1, next hops: [N2, N7]
+node: N2, next hops: [N5]
+node: N3, next hops: [N4]
+node: N4, next hops: [N5]
+node: N5, next hops: [N13]
+node: N6, next hops: [N4, N7]
+node: N7, next hops: [N10]
+node: N8, next hops: [N9, N11]
+node: N9, next hops: [N10]
+node: N10, next hops: [N13]
+node: N11, next hops: [N10]
+node: N12, next hops: [N5]
+node: N13, next hops: []
+
